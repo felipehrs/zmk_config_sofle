@@ -96,11 +96,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&none       &none     &none   &none     &none     &none                        &none      &none      &none            &none     &none     &none
-&kp TAB     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL   &none     &none   &none     &none     &none                        &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHIFT  &none     &none   &none     &none     &none      &trans    &trans  &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                      &none   &none     &trans    &trans     &trans    &trans  &trans     &none      &none            &none
+&none       &none     &none   &none     &none       &none                        &none      &none      &none            &none     &none     &none
+&kp TAB     &kp EXCL  &kp AT  &kp HASH  &kp DLLR    &kp PRCNT                    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL   &none     &none   &none     &felipehrs  &github                      &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LSHIFT  &none     &none   &none     &none       &none      &trans    &trans  &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                      &none   &none     &trans      &trans     &trans    &trans  &trans     &none      &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -118,11 +118,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp C_VOL_UP  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp C_VOL_DN  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans  &trans  &trans
+&none  &none  &none  &none  &none   &none                     &none         &none   &none  &none  &none  &none
+&none  &none  &none  &none  &none   &none                     &kp C_VOL_UP  &none   &none  &none  &none  &none
+&none  &none  &none  &none  &none   &none                     &kp C_VOL_DN  &none   &none  &none  &none  &none
+&none  &none  &none  &none  &none   &none   &trans    &trans  &none         &none   &none  &none  &none  &none
+              &none  &none  &trans  &trans  &trans    &trans  &trans        &trans  &none  &none
             >;
         };
     };
