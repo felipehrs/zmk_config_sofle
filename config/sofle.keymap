@@ -15,17 +15,17 @@
 
         studio_unlock {
             bindings = <&studio_unlock>;
-            key-positions = <4 5 3>;
+            key-positions = <15 16 17>;
         };
 
         out_ble {
             bindings = <&out OUT_BLE>;
-            key-positions = <0 1 2>;
+            key-positions = <12 13 14>;
         };
 
         out_usb {
             bindings = <&out OUT_USB>;
-            key-positions = <12 13 14>;
+            key-positions = <24 25 26>;
         };
     };
 
